@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Подтвердите, что вы не робот</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<link rel="stylesheet" href="https://www.litres.ru/static/wrapper/css/reset.css?v1" type="text/css">
+	<link rel="stylesheet" href="https://www.litres.ru/static/litres/css/style.css?v1" type="text/css">
+	<link rel="stylesheet" href="https://www.litres.ru/static/captcha/css/styles.css?v1" type="text/css" /></head>
+<body>
+	<div class="litres_captcha_page">
+		<div class="litres_header">
+			<div class="logo_block">
+				<a href="https://www.litres.ru/">
+					<span class="" title="ЛитРес">ЛитРес</span>
+				</a>
+			</div>
+		</div>
+		<div class="captcha_content">
+			<div class="captcha_picture"><span class="captcha_icon"></span></div>
+			<div class="captcha_head">Чтобы продолжить,<br />подтвердите, что вы не робот.</div>
+			<div class="captcha_text">
+				<p>Мы заметили странную активность с вашего компьютера. Возможно, мы ошиблись, и эта активность идёт не от вас. В таком случае, подтвердите , что вы не робот и продолжайте пользоваться нашим сайтом.</p>
+			</div>
+			<div class="captcha_block">
+				<form action="https://www.litres.ru/book/aleksey-ivanov/pischeblok-39435346/" method="POST" class="captcha_block_form">
+					<div class="container">
+						<div class="g-recaptcha" data-sitekey="6Lf7vw0TAAAAAGhaGuIet4QO6RZXWpJa4edAzpKW"></div>
+					</div>
+					<input type="hidden" name="var1" value="bla"/>
+<input type="hidden" name="art" value="39435346"/>
+<input type="hidden" name="format" value="txt"/>
+<input type="hidden" name="lfrom" value="17644431"/>
+<input type="hidden" name="CaptchaReqIP" value="188.165.212.86"/>
+<input type="hidden" name="CaptchaReqTime" value="1685394116.36086"/>
+<input type="hidden" name="CaptchaReqKey" value="634b03b9bfd9934af856ff64798c274fbc11b46676908b879411c01b9a0a247f"/>
+
+					<div class="g-recaptcha-response"></div>
+					<input type="submit" value="Подтвердить" class="coolbtn" id="captcha_block_submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://www.litres.ru/static/captcha/js/captcha.js?v2"></script>
+</body>
+</html>
